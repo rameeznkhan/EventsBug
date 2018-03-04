@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		514B483D204C723800C117DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B483C204C723800C117DF /* AppDelegate.swift */; };
-		514B483F204C723800C117DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B483E204C723800C117DF /* ViewController.swift */; };
-		514B4842204C723800C117DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514B4840204C723800C117DF /* Main.storyboard */; };
 		514B4845204C723800C117DF /* Events.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 514B4843204C723800C117DF /* Events.xcdatamodeld */; };
 		514B4847204C723800C117DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 514B4846204C723800C117DF /* Assets.xcassets */; };
 		514B484A204C723800C117DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 514B4848204C723800C117DF /* LaunchScreen.storyboard */; };
 		514B4855204C723800C117DF /* EventsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B4854204C723800C117DF /* EventsTests.swift */; };
 		514B4860204C723800C117DF /* EventsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B485F204C723800C117DF /* EventsUITests.swift */; };
+		514B488D204C72AB00C117DF /* EBEventDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B4870204C72AB00C117DF /* EBEventDetailsView.swift */; };
+		514B488E204C72AB00C117DF /* EBEventsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514B4871204C72AB00C117DF /* EBEventsView.xib */; };
+		514B488F204C72AB00C117DF /* EventBuzzBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B4872204C72AB00C117DF /* EventBuzzBaseView.swift */; };
+		514B4893204C72AB00C117DF /* EBMessagesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514B4876204C72AB00C117DF /* EBMessagesView.xib */; };
+		514B4894204C72AB00C117DF /* EBPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B4877204C72AB00C117DF /* EBPhotosView.swift */; };
+		514B4898204C72AB00C117DF /* EBEventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B487B204C72AB00C117DF /* EBEventsView.swift */; };
+		514B4899204C72AB00C117DF /* EBSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B487C204C72AB00C117DF /* EBSignUpView.swift */; };
+		514B489A204C72AB00C117DF /* EBEventDetailsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514B487D204C72AB00C117DF /* EBEventDetailsView.xib */; };
+		514B489B204C72AB00C117DF /* EBPhotosView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 514B487E204C72AB00C117DF /* EBPhotosView.xib */; };
+		514B489C204C72AB00C117DF /* EBMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B487F204C72AB00C117DF /* EBMessagesView.swift */; };
+		514B48A1204C72AB00C117DF /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B4885204C72AB00C117DF /* MessagesViewController.swift */; };
+		514B48A2204C72AB00C117DF /* EventDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B4886204C72AB00C117DF /* EventDetailsViewController.swift */; };
+		514B48A6204C72AB00C117DF /* EventBuzzBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B488A204C72AB00C117DF /* EventBuzzBaseViewController.swift */; };
+		514B48A9204C73AB00C117DF /* UIViewLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B48A8204C73AB00C117DF /* UIViewLoading.swift */; };
+		514B48B0204C73D400C117DF /* PhotosDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B48AD204C73D400C117DF /* PhotosDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +50,6 @@
 /* Begin PBXFileReference section */
 		514B4839204C723800C117DF /* Events.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Events.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514B483C204C723800C117DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		514B483E204C723800C117DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		514B4841204C723800C117DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		514B4844204C723800C117DF /* Events.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Events.xcdatamodel; sourceTree = "<group>"; };
 		514B4846204C723800C117DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		514B4849204C723800C117DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,21 @@
 		514B485B204C723800C117DF /* EventsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		514B485F204C723800C117DF /* EventsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsUITests.swift; sourceTree = "<group>"; };
 		514B4861204C723800C117DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		514B4870204C72AB00C117DF /* EBEventDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBEventDetailsView.swift; sourceTree = "<group>"; };
+		514B4871204C72AB00C117DF /* EBEventsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBEventsView.xib; sourceTree = "<group>"; };
+		514B4872204C72AB00C117DF /* EventBuzzBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBuzzBaseView.swift; sourceTree = "<group>"; };
+		514B4876204C72AB00C117DF /* EBMessagesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBMessagesView.xib; sourceTree = "<group>"; };
+		514B4877204C72AB00C117DF /* EBPhotosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBPhotosView.swift; sourceTree = "<group>"; };
+		514B487B204C72AB00C117DF /* EBEventsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBEventsView.swift; sourceTree = "<group>"; };
+		514B487C204C72AB00C117DF /* EBSignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBSignUpView.swift; sourceTree = "<group>"; };
+		514B487D204C72AB00C117DF /* EBEventDetailsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBEventDetailsView.xib; sourceTree = "<group>"; };
+		514B487E204C72AB00C117DF /* EBPhotosView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EBPhotosView.xib; sourceTree = "<group>"; };
+		514B487F204C72AB00C117DF /* EBMessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EBMessagesView.swift; sourceTree = "<group>"; };
+		514B4885204C72AB00C117DF /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		514B4886204C72AB00C117DF /* EventDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventDetailsViewController.swift; sourceTree = "<group>"; };
+		514B488A204C72AB00C117DF /* EventBuzzBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventBuzzBaseViewController.swift; sourceTree = "<group>"; };
+		514B48A8204C73AB00C117DF /* UIViewLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewLoading.swift; sourceTree = "<group>"; };
+		514B48AD204C73D400C117DF /* PhotosDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +105,10 @@
 		514B4830204C723800C117DF = {
 			isa = PBXGroup;
 			children = (
+				514B48AA204C73D400C117DF /* DataSources */,
+				514B48A7204C73AB00C117DF /* Protocols */,
+				514B4881204C72AB00C117DF /* ViewControllers */,
+				514B486D204C72AB00C117DF /* Views */,
 				514B483B204C723800C117DF /* Events */,
 				514B4853204C723800C117DF /* EventsTests */,
 				514B485E204C723800C117DF /* EventsUITests */,
@@ -100,8 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				514B483C204C723800C117DF /* AppDelegate.swift */,
-				514B483E204C723800C117DF /* ViewController.swift */,
-				514B4840204C723800C117DF /* Main.storyboard */,
 				514B4846204C723800C117DF /* Assets.xcassets */,
 				514B4848204C723800C117DF /* LaunchScreen.storyboard */,
 				514B484B204C723800C117DF /* Info.plist */,
@@ -126,6 +154,49 @@
 				514B4861204C723800C117DF /* Info.plist */,
 			);
 			path = EventsUITests;
+			sourceTree = "<group>";
+		};
+		514B486D204C72AB00C117DF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				514B4870204C72AB00C117DF /* EBEventDetailsView.swift */,
+				514B4871204C72AB00C117DF /* EBEventsView.xib */,
+				514B4872204C72AB00C117DF /* EventBuzzBaseView.swift */,
+				514B4876204C72AB00C117DF /* EBMessagesView.xib */,
+				514B4877204C72AB00C117DF /* EBPhotosView.swift */,
+				514B487B204C72AB00C117DF /* EBEventsView.swift */,
+				514B487C204C72AB00C117DF /* EBSignUpView.swift */,
+				514B487D204C72AB00C117DF /* EBEventDetailsView.xib */,
+				514B487E204C72AB00C117DF /* EBPhotosView.xib */,
+				514B487F204C72AB00C117DF /* EBMessagesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		514B4881204C72AB00C117DF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				514B4885204C72AB00C117DF /* MessagesViewController.swift */,
+				514B4886204C72AB00C117DF /* EventDetailsViewController.swift */,
+				514B488A204C72AB00C117DF /* EventBuzzBaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		514B48A7204C73AB00C117DF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				514B48A8204C73AB00C117DF /* UIViewLoading.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		514B48AA204C73D400C117DF /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				514B48AD204C73D400C117DF /* PhotosDataSource.swift */,
+			);
+			path = DataSources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,8 +307,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				514B484A204C723800C117DF /* LaunchScreen.storyboard in Resources */,
+				514B488E204C72AB00C117DF /* EBEventsView.xib in Resources */,
+				514B489B204C72AB00C117DF /* EBPhotosView.xib in Resources */,
 				514B4847204C723800C117DF /* Assets.xcassets in Resources */,
-				514B4842204C723800C117DF /* Main.storyboard in Resources */,
+				514B4893204C72AB00C117DF /* EBMessagesView.xib in Resources */,
+				514B489A204C72AB00C117DF /* EBEventDetailsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +336,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514B488D204C72AB00C117DF /* EBEventDetailsView.swift in Sources */,
 				514B4845204C723800C117DF /* Events.xcdatamodeld in Sources */,
-				514B483F204C723800C117DF /* ViewController.swift in Sources */,
+				514B489C204C72AB00C117DF /* EBMessagesView.swift in Sources */,
+				514B4894204C72AB00C117DF /* EBPhotosView.swift in Sources */,
+				514B4898204C72AB00C117DF /* EBEventsView.swift in Sources */,
+				514B48A9204C73AB00C117DF /* UIViewLoading.swift in Sources */,
 				514B483D204C723800C117DF /* AppDelegate.swift in Sources */,
+				514B488F204C72AB00C117DF /* EventBuzzBaseView.swift in Sources */,
+				514B48A1204C72AB00C117DF /* MessagesViewController.swift in Sources */,
+				514B4899204C72AB00C117DF /* EBSignUpView.swift in Sources */,
+				514B48B0204C73D400C117DF /* PhotosDataSource.swift in Sources */,
+				514B48A2204C72AB00C117DF /* EventDetailsViewController.swift in Sources */,
+				514B48A6204C72AB00C117DF /* EventBuzzBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		514B4840204C723800C117DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				514B4841204C723800C117DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		514B4848204C723800C117DF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
